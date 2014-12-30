@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://philos.smvdu.net.in/</loc>
+  <lastmod>2014-12-25T16:14:59+00:00</lastmod>
+</url>
+<url>
+  <loc>http://philos.smvdu.net.in/complete-brochure.pdf</loc>
+  <lastmod>2014-12-24T13:41:00+00:00</lastmod>
+</url>
+<url>
+  <loc>http://philos.smvdu.net.in/Invitation.pdf</loc>
+  <lastmod>2014-12-24T13:42:46+00:00</lastmod>
+</url>
+<url>
+  <loc>http://philos.smvdu.net.in/places.pdf</loc>
+  <lastmod>2014-12-24T13:42:53+00:00</lastmod>
+</url>
+<url>
+  <loc>http://philos.smvdu.net.in/form-hindi.pdf</loc>
+  <lastmod>2014-12-24T13:42:36+00:00</lastmod>
+</url>
+<url>
+  <loc>http://philos.smvdu.net.in/form-english.pdf</loc>
+  <lastmod>2014-12-24T13:42:09+00:00</lastmod>
+</url>
+</urlset>
