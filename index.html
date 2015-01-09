@@ -562,6 +562,7 @@
                             </ul>
                         </div>
                     </div>
+                    
                     <div class="row">
                         <div class="large-3 large-offset-3 medium-3 medium-offset-3 columns">
                             <a href="form-hindi.pdf" target="_blank" class="button">Form (Hindi)</a>
@@ -581,67 +582,161 @@
                         </div>
                     </div>
                     <br>
-                    <div class="row">
-                    <div class="small-12 large-12">
                     <form>
                       <div class="row">
-                        <div class="small-12 columns">
-                          <div class="row">
-                            <div class="small-4 columns">
-                              <label for="right-label" class="right inline">Name</label>
+                        <div class="large-4 columns">
+                          <label>Name: Mr./Ms./Dr.
+                            <input type="text" placeholder="Enter Name" />
+                          </label>
+                        </div>
+                        <div class="large-4 columns">
+                          <label>Affiliation:
+                            <input type="text" placeholder="Enter Affiliation" />
+                          </label>
+                        </div>
+                        <div class="large-4 columns">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="large-8 columns">
+                          <label>Address for Correspondence: 
+                            <textarea placeholder="Enter Address"></textarea>
+                          </label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="large-4 columns">
+                          <label>PIN
+                            <input type="number" placeholder="Enter PIN" />
+                          </label>
+                        </div>
+                        <div class="large-4 columns">
+                          <label>Phone:
+                            <input type="number" placeholder="Enter Phone Number" />
+                          </label>
+                        </div>
+                        <div class="large-4 columns">
+                          <label>E-mail
+                            <input type="email" placeholder="Enter E-mail" />
+                          </label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="large-6 columns">
+                          <label>Title of Presentation: 
+                            <input type="text" placeholder="Enter Title of Presentation" />
+                          </label>
+                        </div>
+                      </div>
+                        <!--------------------Details of Registration Fee---------------->
+                        <div class="row">
+                            <div class="large-12 small-12 columns">
+                                <h1>Details of Registration Fee:</h1>
                             </div>
-                            <div class="small-4 columns">
-                              <input type="text" id="right-label" placeholder="Enter Name">
+                        </div>
+                      <div class="row">
+                        <div class="large-4 columns">
+                          <label>Amount:
+                            <input type="number" placeholder="Enter Amount ex -  3000" />
+                          </label>
+                        </div>
+                        <div class="large-4 columns">
+                          <label>NEFT Ref. No. /DD No.: 
+                            <input type="number" placeholder="Enter NEFT Ref. No. /DD No." />
+                          </label>
+                        </div>
+                        <div class="large-4 columns">
+                          <label>Issuing Bank 
+                            <input type="text" placeholder="Enter Issuing Bank " />
+                          </label>
+                        </div>
+                      </div>
+                        <div class="row">
+                            <div class="large-12 small-12 columns">
+                                <p>Details of Accompanying Person(s):</p>
                             </div>
-                            <div class="small-4 columns">
+                        </div>
+                      <div class="row">
+                        <div class="large-4 columns">
+                          <label>Name
+                            <input type="text" placeholder="Enter Name" />
+                          </label>
+                        </div>
+                        <div class="large-4 columns">
+                          <label>Relationship: 
+                            <input type="text" placeholder="Enter Relationship" />
+                          </label>
+                        </div>
+                        <div class="large-4 columns">
+                          <label>Age
+                            <input type="number" placeholder="Enter Age " />
+                          </label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="large-4 columns">
+                          <label>Male/Female</label>
+                          <input type="radio" name="gender" value="Male" id="gender-male"><label for="gender-male">Male</label>
+                          <input type="radio" name="gender" value="Female" id="gender-female"><label for="gender-                                               female">Female</label>                   
+                        </div>
+                      </div>
+                        <div class="row">
+                            <div class="large-12 small-12 columns">
+                                <h1>Accommodation Details: </h1>
                             </div>
-                          </div>
-                          <div class="row">
-                            <div class="small-4 columns">
-                              <label for="right-label" class="right inline">Mobile Number</label>
-                            </div>
-                            <div class="small-4 columns">
-                              <input type="text" id="right-label" placeholder="Enter Mobile Number">
-                            </div>
-                            <div class="small-4 columns">
-                            </div>
-                          </div>
-                          <div class="row">
-                            <div class="small-4 columns">
-                              <label for="right-label" class="right inline">E-mail ID</label>
-                            </div>
-                            <div class="small-4 columns">
-                              <input type="text" id="right-label" placeholder="Enter E-mail id">
-                            </div>
-                            <div class="small-4 columns">
-                            </div>
-                          </div>
-                          <div class="row">
-                            <div class="small-4 columns">
-                              <label for="right-label" class="right inline">Profession</label>
-                            </div>
-                            <div class="small-4 columns">
-                              <input type="text" id="right-label" placeholder="Enter Profession">
-                            </div>
-                            <div class="small-4 columns">
-                            </div>
-                          </div>
-                          <div class="row">
-                            <div class="small-4 columns">
-                              <label for="right-label" class="right inline">Address</label>
-                            </div>
-                            <div class="small-4 columns">
-                              <input type="text" id="right-label" placeholder="Enter Address">
-                            </div>
-                            <div class="small-4 columns">
-                            </div>
-                          </div>
+                        </div>
+                      <div class="row">
+                        <div class="large-6 columns">
+                          <label>Accommodation:</label>
+                          <input type="radio" name="accomod" value="Required" id="accomod-req"><label for="accomod-                                             req">Required</label>
+                          <input type="radio" name="accomod" value="Not-Required" id="accomod-nreq"><label for="accomod-nreq">Not                               required</label>
+                        </div>
+                      </div>
+                        
+                      <br>
+                        
+                    <div class="row">
+                        <div class="large-12 columns">
+                          <label>Arrival At: </label>
+                          <input type="radio" name="arrival" value="Jammu Railway Station" id="arrival-jammurail"><label                                        for="arrival-jammurail">Jammu Railway Station </label>
+                          <input type="radio" name="arrival" value="Katra Railway Station" id="arrival-katrarail"><label                                         for="arrival-katrarail">Katra Railway Station </label>
+                          <input type="radio" name="arrival" value="Jammu Airport" id="arrival-katraair"><label for="arrival-                                     katraair">Jammu Airport </label>
+                        </div>
+                    </div>
+                      <div class="row">
+                        <div class="large-6 columns">
+                          <label>Date
+                            <input type="date" placeholder="Enter Date " />
+                          </label>                            
+                        </div>
+                        <div class="large-6 columns">
+                          <label>Time
+                            <input type="text" placeholder="Enter Time ex - 18:00 " />
+                          </label>                            
+                        </div>
+                      </div>
+                    <div class="row">
+                        <div class="large-12 columns">
+                          <label>Departure From:  </label>
+                          <input type="radio" name="depart" value="Jammu Railway Station" id="depart-jammurail"><label                                        for="depart-jammurail">Jammu Railway Station </label>
+                          <input type="radio" name="depart" value="Katra Railway Station" id="depart-katrarail"><label                                         for="depart-katrarail">Katra Railway Station </label>
+                          <input type="radio" name="depart" value="Jammu Airport" id="depart-katraair"><label for="depart-                                     katraair">Jammu Airport </label>
+                        </div>
+                    </div>
+                      <div class="row">
+                        <div class="large-6 columns">
+                          <label>Date
+                            <input type="date" placeholder="Enter Date " />
+                          </label>                            
+                        </div>
+                        <div class="large-6 columns">
+                          <label>Time
+                            <input type="text" placeholder="Enter Time ex - 20:30 " />
+                          </label>                            
                         </div>
                       </div>
                     </form>
-                    </div>
-                    </div>
-                    
+                    <br>
                     <div class="row">
                         <div class="large-12 medium-12 columns text-center">
                             <a href="#" data-reveal-id="myModal" class="button">Submit</a>

@@ -632,12 +632,16 @@ body *
 
 #registration
 {
-    background: #2D525C;
+    background: #2980b9;
     padding: 60px;
     text-align: center;
     color: #fff;
 }
 
+#registration form
+{
+    text-align: left;
+}
 #registration h1
 {
     font-size: 2em;
