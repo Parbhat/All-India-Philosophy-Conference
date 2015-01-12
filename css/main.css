@@ -309,7 +309,7 @@ textarea {
 body *
 {
     
-    font-family: 'Slabo 27px', serif !important;
+    font-family: 'Slabo 27px', 'Lohit Devanagari', serif!important;
 }
 
 .button
@@ -348,7 +348,7 @@ body *
 
 .homepage-upper
 {
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 #aipa-text
@@ -375,19 +375,34 @@ body *
 
 #about-smvdu
 {
-    background:  #339fcd;
+    background:#2980b9;
     padding: 60px;
     text-align: center
 }
 
 #about-aipa
 {
-    background:   #2980b9;
+    background:#00BCC9;
     padding: 60px;
     text-align: center;
 }
 
+.aipa-members
+{
+    color: #fff;
+    font-size: 1em;
+    text-align: left;
+}
 
+#aipa-member-2
+{
+    margin-top: 50px;
+}
+
+#about-aipa .aipa-member-title
+{
+    color: #000;
+}
 
 #about-smvdu h1
 {
@@ -404,6 +419,7 @@ body *
     font-weight: 500;
     margin-bottom: 0;
     text-align: justify;
+    padding-bottom: 20px;
 }
 
 #about-aipa h1
@@ -416,7 +432,7 @@ body *
 
 #session
 {
-    background: #2D525C;
+    background: #0A708C;
     padding: 60px;
     text-align: center;
 }
@@ -439,10 +455,11 @@ body *
 
 #session h3
 {
-    font-size: 1.4em;
+    font-size: 2em;
     color: #fff;
     font-weight: 500;
     margin-bottom: 0;
+    margin-top: 50px;
 }
 
 #about-aipa p
@@ -512,7 +529,7 @@ body *
 
 #session table tr.even, #session table tr.alt,#session table tr:nth-of-type(even)
 {
-    background:#2D525C!important;
+    background:#0A708C!important;
 }
 
 #theme
@@ -650,6 +667,11 @@ body *
     margin-bottom: 0;
 }
 
+#registration .amount
+{
+    padding-top: 50px;
+}
+
 #registration label
 {
     font-size: 1.2em;
@@ -719,7 +741,7 @@ body *
 
 #contact ul li
 {
-    font-size: 1em;
+    font-size: 1.3em;
     color: #fff;
     font-weight: 500;
     margin-bottom: 0;
@@ -733,6 +755,59 @@ body *
     font-weight: 500;
     margin-bottom: 0;
 }
+
+#how-to-reach
+{
+    background: #3498db;
+    height: auto;
+    padding-top: 50px;
+}
+
+#how-to-reach p
+{
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+#how-to-reach ul li
+{
+    color: #fff;
+}
+
+#how-to-reach h1
+{
+    font-size: 2em;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+#contact
+{
+    background: #0FBF9A;
+    height: auto;
+    padding-top: 50px;
+}
+
+#contact p
+{
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+#contact h1
+{
+    font-size: 2em;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
 
 .mail a:link
 {
