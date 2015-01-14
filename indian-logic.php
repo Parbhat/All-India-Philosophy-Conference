@@ -15,7 +15,7 @@
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/main2.css">
         <link rel="stylesheet" href="css/foundation.min.css" />
         <script src="js/vendor/jquery-1.10.2.min.js"></script>
         <link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>    
@@ -83,7 +83,7 @@
                             <br>
                             </p>
                             <div id="aipa-text">
-                                <p>हीरक-जयन्ती अधिवेशन (60<sup>th</sup> Session)
+                                <p>Diamond Jubilee Session (60<sup>th</sup> Session)
                                 </p>
                                 <h1> All India Philosophy Association</h1>
                                 <p> 3<sup>rd</sup> - 5<sup>th</sup> June, 2015</p>
@@ -247,17 +247,12 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="large-3 large-offset-3 medium-3 medium-offset-3 columns">
-                            <a href="form-hindi.pdf" target="_blank" class="button">Form (Hindi)</a>
-                        </div>
-                        <div class="large-3 medium-3 columns">
-                            <a href="form-english.pdf" class="button" target="_blank">Form (English)</a>
-                        </div>
-                        <div class="large-3 medium-3 columns">
+                        <div class="large-6 large-offset-3 columns">
+                            <a href="form-english.pdf" class="button" target="_blank">Registration Form</a>
                         </div>
                     </div>
                     
-                   <!--*************Online Registration************-->
+                    <!--*************Online Registration************-->
                     <hr>
                     <div class="row" id="online">
                         <div class="large-12 small-12 columns">
@@ -265,16 +260,16 @@
                         </div>
                     </div>
                     <br>
-                    <form>
+                    <form method="post" action="index.php">
                       <div class="row">
                         <div class="large-4 columns">
                           <label>Name: Mr./Ms./Dr.
-                            <input type="text" placeholder="Enter Name" />
+                            <input type="text" placeholder="Enter Name" name="name" required aria-required=”true”/>
                           </label>
                         </div>
                         <div class="large-4 columns">
                           <label>Affiliation:
-                            <input type="text" placeholder="Enter Affiliation" />
+                            <input type="text" placeholder="Enter Affiliation" name="affiliation" required aria-required=”true”/>
                           </label>
                         </div>
                         <div class="large-4 columns">
@@ -283,31 +278,31 @@
                       <div class="row">
                         <div class="large-8 columns">
                           <label>Address for Correspondence: 
-                            <textarea placeholder="Enter Address"></textarea>
+                            <textarea placeholder="Enter Address" name="address" required aria-required=”true”></textarea>
                           </label>
                         </div>
                       </div>
                       <div class="row">
                         <div class="large-4 columns">
                           <label>PIN
-                            <input type="number" placeholder="Enter PIN" />
+                            <input type="number" placeholder="Enter PIN" name="pin" required aria-required=”true”/>
                           </label>
                         </div>
                         <div class="large-4 columns">
                           <label>Phone:
-                            <input type="number" placeholder="Enter Phone Number" />
+                            <input type="number" placeholder="Enter Phone Number" name="phone" required aria-required=”true”/>
                           </label>
                         </div>
                         <div class="large-4 columns">
                           <label>E-mail
-                            <input type="email" placeholder="Enter E-mail" />
+                            <input type="email" placeholder="Enter E-mail" name="email" required aria-required=”true”/>
                           </label>
                         </div>
                       </div>
                       <div class="row">
                         <div class="large-6 columns">
                           <label>Title of Presentation: 
-                            <input type="text" placeholder="Enter Title of Presentation" />
+                            <input type="text" placeholder="Enter Title of Presentation" name="title" required aria-required=”true”/>
                           </label>
                         </div>
                       </div>
@@ -320,17 +315,17 @@
                       <div class="row">
                         <div class="large-4 columns">
                           <label>Amount:
-                            <input type="number" placeholder="Enter Amount ex -  3000" />
+                            <input type="number" placeholder="Enter Amount ex -  3000" name="amount" required aria-required=”true”/>
                           </label>
                         </div>
                         <div class="large-4 columns">
                           <label>NEFT Ref. No. /DD No.: 
-                            <input type="number" placeholder="Enter NEFT Ref. No. /DD No." />
+                            <input type="number" placeholder="Enter NEFT Ref. No. /DD No." name="reference" required aria-required=”true”/>
                           </label>
                         </div>
                         <div class="large-4 columns">
                           <label>Issuing Bank 
-                            <input type="text" placeholder="Enter Issuing Bank " />
+                            <input type="text" placeholder="Enter Issuing Bank " name="bank" required aria-required=”true”/>
                           </label>
                         </div>
                       </div>
@@ -342,24 +337,24 @@
                       <div class="row">
                         <div class="large-4 columns">
                           <label>Name
-                            <input type="text" placeholder="Enter Name" />
+                            <input type="text" placeholder="Enter Name" name="accname"/>
                           </label>
                         </div>
                         <div class="large-4 columns">
                           <label>Relationship: 
-                            <input type="text" placeholder="Enter Relationship" />
+                            <input type="text" placeholder="Enter Relationship" name="accrelation"/>
                           </label>
                         </div>
                         <div class="large-4 columns">
                           <label>Age
-                            <input type="number" placeholder="Enter Age " />
+                            <input type="number" placeholder="Enter Age " name="accage"/>
                           </label>
                         </div>
                       </div>
                       <div class="row">
                         <div class="large-4 columns">
                           <label>Male/Female</label>
-                          <input type="radio" name="gender" value="Male" id="gender-male"><label for="gender-male">Male</label>
+                          <input type="radio" name="gender" value="Male" checked="checked" id="gender-male"><label for="gender-male">Male</label>
                           <input type="radio" name="gender" value="Female" id="gender-female"><label for="gender-                                               female">Female</label>                   
                         </div>
                       </div>
@@ -371,7 +366,7 @@
                       <div class="row">
                         <div class="large-6 columns">
                           <label>Accommodation:</label>
-                          <input type="radio" name="accomod" value="Required" id="accomod-req"><label for="accomod-                                             req">Required</label>
+                          <input type="radio" name="accomod" value="Required"  checked="checked" id="accomod-req"><label for="accomod-                                             req">Required</label>
                           <input type="radio" name="accomod" value="Not-Required" id="accomod-nreq"><label for="accomod-nreq">Not                               required</label>
                         </div>
                       </div>
@@ -382,19 +377,19 @@
                         <div class="large-12 columns">
                           <label>Arrival At: </label>
                           <input type="radio" name="arrival" value="Jammu Railway Station" id="arrival-jammurail"><label                                        for="arrival-jammurail">Jammu Railway Station </label>
-                          <input type="radio" name="arrival" value="Katra Railway Station" id="arrival-katrarail"><label                                         for="arrival-katrarail">Katra Railway Station </label>
+                          <input type="radio" name="arrival" value="Katra Railway Station"  checked="checked" id="arrival-katrarail"><label                                         for="arrival-katrarail">Katra Railway Station </label>
                           <input type="radio" name="arrival" value="Jammu Airport" id="arrival-katraair"><label for="arrival-                                     katraair">Jammu Airport </label>
                         </div>
                     </div>
                       <div class="row">
                         <div class="large-6 columns">
                           <label>Date
-                            <input type="date" placeholder="Enter Date " />
+                            <input type="date" placeholder="Enter Date ex: 01-06-2015 " name="arrivaldate"/>
                           </label>                            
                         </div>
                         <div class="large-6 columns">
                           <label>Time
-                            <input type="text" placeholder="Enter Time ex - 18:00 " />
+                            <input type="text" placeholder="Enter Time ex - 18:00" name="arrivaltime" />
                           </label>                            
                         </div>
                       </div>
@@ -402,30 +397,83 @@
                         <div class="large-12 columns">
                           <label>Departure From:  </label>
                           <input type="radio" name="depart" value="Jammu Railway Station" id="depart-jammurail"><label                                        for="depart-jammurail">Jammu Railway Station </label>
-                          <input type="radio" name="depart" value="Katra Railway Station" id="depart-katrarail"><label                                         for="depart-katrarail">Katra Railway Station </label>
+                          <input type="radio" name="depart" value="Katra Railway Station" checked="checked" id="depart-katrarail"><label                                         for="depart-katrarail">Katra Railway Station </label>
                           <input type="radio" name="depart" value="Jammu Airport" id="depart-katraair"><label for="depart-                                     katraair">Jammu Airport </label>
                         </div>
                     </div>
                       <div class="row">
                         <div class="large-6 columns">
                           <label>Date
-                            <input type="date" placeholder="Enter Date " />
+                            <input type="date" placeholder="Enter Date ex: 05-06-2015 " name="departdate"/>
                           </label>                            
                         </div>
                         <div class="large-6 columns">
                           <label>Time
-                            <input type="text" placeholder="Enter Time ex - 20:30 " />
+                            <input type="text" placeholder="Enter Time ex - 20:30 " name="departtime"/>
                           </label>                            
                         </div>
                       </div>
-                    </form>
-                    <br>
                     <div class="row">
                         <div class="large-12 medium-12 columns text-center">
-                            <a href="#" data-reveal-id="myModal" class="button">Submit</a>
+                            <!--<a href="#" data-reveal-id="myModal" class="button">Submit</a>-->
+                            <input type="submit" name="submit" value="submit" class="button">
                             <p>Note: Online Registration will be available soon.</p>
                         </div>
                     </div>
+                    </form>
+                    
+                <?php 
+
+                if(isset($_POST['submit'])) 
+                {    
+                    include 'database.php'; 
+                }
+                ?>
+ 
+                <?php
+                if(isset($_POST['submit'])) 
+                {
+                    $name=$_POST['name'];
+                    $affiliation=$_POST['affiliation'];
+                    $address=$_POST['address'];
+                    $pin=$_POST['pin'];
+                    $phone=$_POST['phone'];
+                    $email=$_POST['email'];
+                    $title=$_POST['title'];
+                    $amount=$_POST['amount'];
+                    $reference=$_POST['reference'];
+                    $bank=$_POST['bank'];
+                    $accname=$_POST['accname'];
+                    $accrelation=$_POST['accrelation'];
+                    $accage=$_POST['accage'];
+                    $gender=$_POST['gender'];
+                    $accomod=$_POST['accomod'];
+                    $arrival=$_POST['arrival'];
+                    $arrivaldate=$_POST['arrivaldate'];
+                    $arrivaltime=$_POST['arrivaltime'];
+                    $depart=$_POST['depart'];
+                    $departdate=$_POST['departdate'];
+                    $departtime=$_POST['departtime'];
+
+                    mysqli_query($connect,"INSERT INTO registration  
+                    (name,affiliation,address,pin,phone,email,presentation,amount,referenceno,bank,accname,                     
+                     accrelation,accage,accgender,accomodation,arrival,arrivaldate,arrivaltime,depart,departdate,departtime)
+                                VALUES                                    ('$name','$affiliation','$address','$pin','$phone','$email','$title','$amount','$reference','$bank','$accname','$accrelation','$accage','$gender','$accomod','$arrival','$arrivaldate','$arrivaltime','$depart','$departdate','$departtime')");
+
+                    if(mysqli_affected_rows($connect) > 0)
+                    {
+                        
+                        echo "<p>Registration Successful</p>";
+                        echo "<script>alert('Registration Successful');</script>";
+                    } 
+
+                    else
+                    {
+                        echo "<script>alert('Registration Not Successful');</script>";
+                        echo mysqli_error ($connect);
+                    }
+                }
+                ?> 
                     
                     <div id="myModal" class="reveal-modal" data-reveal>
                       <h2>Online Registration will be available soon.</h2>
