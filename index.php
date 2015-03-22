@@ -111,7 +111,7 @@
                             </h2>
                             <h1>Shri Mata Vaishno Devi University, Katra</h1>
                             
-                            <p>Jammu & Kashmir - 182320
+                            <p>Jammu & Kashmir - 182320 (India)
                             <br>
                             </p>
                             <div id="aipa-text">
@@ -127,11 +127,19 @@
                         </div>
                     </div>
                     
-                    <br>
-                    <br>
                     <div class="row">
                         <div class="large-12 medium-12 columns text-center">
                             <a href="#registration" class="button">Register</a>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="large-12 medium-12 columns text-center">
+                            <marquee>
+                            <p>
+                                Due to high demand from the prospective participants, the last date for registration along with                                     abstract and paper submission is extended to 5th May 2015. After this date also, one can register                                   with a late fee of Rs. 500/-.                                
+                            </p>
+                            </marquee>
                         </div>
                     </div>
                 
@@ -271,6 +279,12 @@
                                 <p>ईमेल: rcsinha22@gmail.com</p>
 
                             </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="large-12 medium-12 columns text-center">
+                            <a href="brochure.pdf"  target="_blank" class="button"><p>Download AIPA Invitation</p></a></li>
                         </div>
                     </div>
                         
@@ -566,7 +580,7 @@
 </p>
                             <ul>
                                 <li>खाता धारक का नाम: कुलसचिव, श्री माता वैष्णो देवी विश्वविद्यालय (Registrar,SMVDU)</li>
-                                <li>पता: श्री माता वैष्णो देवी विश्वविद्यालय, कटड़ा, जम्मू-कश्मीर – 182320 </li>
+                                <li>पता: श्री माता वैष्णो देवी विश्वविद्यालय, कटड़ा, जम्मू-कश्मीर – 182320 (India) </li>
                                 <li>खाता संख्या: 0477040100000023</li>
                                 <li>बैंक का नाम: जम्मू-कश्मीर बैंक </li>
                                 <li>शाखा का नाम: श्री माता वैष्णो देवी विश्वविद्यालय, ककरियाल </li>
@@ -592,7 +606,7 @@
                                 <li>आयोजन सचिव</li>
                                 <li>दर्शन एवं संस्कृति विभाग </li>
                                 <li>श्रीमाता वैष्णो देवी विश्वविद्यालय, कटड़ा</li>
-                                <li>रियासी, जम्मू-कश्मीर – 182320</li>
+                                <li>रियासी, जम्मू-कश्मीर – 182320 (India) </li>
                                 <br>
                                 <li>दूरभाष: +91 1991 285693</li>
                                 <li>फैक्स: +91 1991 285693</li>
@@ -675,7 +689,7 @@
                         </div>
                         <div class="large-4 columns">
                           <label>NEFT Ref. No. /DD No.: 
-                            <input type="number" placeholder="Enter NEFT Ref. No. /DD No." name="reference" required aria-required=”true”/>
+                            <input type="text" placeholder="Enter NEFT Ref. No. /DD No." name="reference" required aria-required=”true”/>
                           </label>
                         </div>
                         <div class="large-4 columns">
@@ -772,7 +786,6 @@
                         <div class="large-12 medium-12 columns text-center">
                             <!--<a href="#" data-reveal-id="myModal" class="button">Submit</a>-->
                             <input type="submit" name="submit" value="submit" class="button">
-                            <p>Note: Online Registration will be available soon.</p>
                         </div>
                     </div>
                     </form>
@@ -904,10 +917,10 @@
                                 <li>आयोजन सचिव</li>
                                 <li>दर्शन एवं संस्कृति विभाग </li>
                                 <li>श्रीमाता वैष्णो देवी विश्वविद्यालय, कटड़ा</li>
-                                <li>रियासी, जम्मू-कश्मीर – 182320</li>
+                                <li>रियासी, जम्मू-कश्मीर – 182320 (India) </li>
                                 <br>
                                 <li>दूरभाष: +91 1991 285693</li>
-                                <li>फैक्स: +91 1991 285693</li>
+                                <li>फैक्स: +91 1991 285693/285694</li>
                                 <li>ई-मेल: darshan.parishad@smvdu.ac.in</li>
                             </ul>
                         </div>
@@ -928,8 +941,8 @@
                         <div class="small-12 large-6 columns">
                             <p class="developers">
                                 Website Developed by -
-                                <a href="http://www.parbhatpuri.com" target="_blank">Parbhat Puri, </a>
-                                <a href="https://www.facebook.com/profile.php?id=100000144781888" target="_blank">Yashvendra                                       Pratap Singh</a>
+                                <a href="https://parbhatpuri.com" target="_blank">Parbhat Puri, </a>
+                                <a href="http://in.linkedin.com/in/yashpsingh7" target="_blank">Yashvendra                                       Pratap Singh</a>
                             </p>
                         </div>
                     </div>

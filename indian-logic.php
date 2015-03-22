@@ -79,7 +79,7 @@
                         </div>
                         <div class="small-8 large-8 columns text-center homepage-upper">
                             <h1>Shri Mata Vaishno Devi University, Katra</h1>   
-                            <p>Jammu & Kashmir - 182320
+                            <p>Jammu & Kashmir - 182320 (India)
                             <br>
                             </p>
                             <div id="aipa-text">
@@ -103,6 +103,16 @@
                         </div>
                     </div>
                 
+                    <div class="row">
+                        <div class="large-12 medium-12 columns text-center">
+                            <marquee>
+                            <p>
+                                Due to high demand from the prospective participants, the last date for registration along with                                     abstract and paper submission is extended to 5th May 2015. After this date also, one can register                                   with a late fee of Rs. 500/-.                                
+                            </p>
+                            </marquee>
+                        </div>
+                    </div>
+                    
                 </section>
                 
                 <!--******* About SMVDU ******-->
@@ -216,7 +226,7 @@
                                 <li>Through NEFT transaction in the following account:
                                 <ul>
                                     <li>Name of the Account: Registrar, SMVDU</li>
-                                    <li>Address: SMVDU, Katra, J&K (INDIA) -182320</li>
+                                    <li>Address: SMVDU, Katra, J&K (INDIA) - 182320</li>
                                     <li>Account No.: 0477040100000023</li>
                                     <li>Name of the Bank: J&K Bank </li>
                                     <li>Branch: Shri Mata Vaishno Devi University</li>
@@ -260,7 +270,7 @@
                         </div>
                     </div>
                     <br>
-                    <form method="post" action="index.php">
+                    <form method="post" action="indian-logic.php">
                       <div class="row">
                         <div class="large-4 columns">
                           <label>Name: Mr./Ms./Dr.
@@ -320,7 +330,7 @@
                         </div>
                         <div class="large-4 columns">
                           <label>NEFT Ref. No. /DD No.: 
-                            <input type="number" placeholder="Enter NEFT Ref. No. /DD No." name="reference" required aria-required=”true”/>
+                            <input type="text" placeholder="Enter NEFT Ref. No. /DD No." name="reference" required aria-required=”true”/>
                           </label>
                         </div>
                         <div class="large-4 columns">
@@ -417,7 +427,6 @@
                         <div class="large-12 medium-12 columns text-center">
                             <!--<a href="#" data-reveal-id="myModal" class="button">Submit</a>-->
                             <input type="submit" name="submit" value="submit" class="button">
-                            <p>Note: Online Registration will be available soon.</p>
                         </div>
                     </div>
                     </form>
@@ -529,9 +538,9 @@
                                     Dr. Anil Kumar Tewari
                                     Organizing Secretary
                                     Conference Secretariat, School of Philosophy & Culture
-                                    Shri Mata Vaishno Devi University, Katra, J&K–182320
+                                    Shri Mata Vaishno Devi University, Katra, J&K–182320 (India)
                                     Phone: +91 1991 285693
-                                    Fax: +91 1991 285693
+                                    Fax: +91 1991 285693/285694
                                     Email: darshan.parishad@smvdu.ac.in
                             </pre>
                         </div>
@@ -573,8 +582,8 @@
                         <div class="small-12 large-6 columns">
                             <p class="developers">
                                 Website Developed by -
-                                <a href="http://www.parbhatpuri.com" target="_blank">Parbhat Puri, </a>
-                                <a href="https://www.facebook.com/profile.php?id=100000144781888" target="_blank">Yashvendra                                       Pratap Singh</a>
+                                <a href="https://parbhatpuri.com" target="_blank">Parbhat Puri, </a>
+                                <a href="http://in.linkedin.com/in/yashpsingh7" target="_blank">Yashvendra                                       Pratap Singh</a>
                             </p>
                         </div>
                     </div>
